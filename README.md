@@ -2,6 +2,8 @@
 
 Bienvenue dans le depot github de mon site web
 
+Premiere jour de devellopement le 22 decembre a 15h
+
 ## Les objectifs a realiser 
 
 - Un site web php-html
