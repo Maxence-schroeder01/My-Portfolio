@@ -13,6 +13,7 @@ Premiere jour de devellopement le 22 decembre a 15h
 - nom de domaine : maxence-schroeder.com
 - css-card
 - nouvelle identite graphique
+- N'uttiiser aucun template
 
 ## Mes inspirations
 
