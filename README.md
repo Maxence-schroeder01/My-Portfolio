@@ -2,6 +2,8 @@
 
 Bienvenue dans le depot github de mon site web
 
+Ancien site web seulement disponible jusqu'au 22 decembre 2021
+
 Premiere jour de devellopement le 22 decembre a 15h
 
 ## Les objectifs a realiser 
