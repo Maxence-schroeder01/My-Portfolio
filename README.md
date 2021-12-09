@@ -25,3 +25,5 @@ Premiere jour de devellopement le 22 decembre a 15h
 [![](https://img.shields.io/badge/Portfolio_github_part_2-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Maxence-schroeder01/List_github_repo)
 
 [![](https://img.shields.io/badge/Java_css_transition-000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=jEXfPkyNXx8&list=WL&index=30&t=104s)
+
+[![](https://img.shields.io/badge/Some_details-000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Wv0_zNIozgw)
