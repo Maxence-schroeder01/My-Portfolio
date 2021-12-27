@@ -21,17 +21,39 @@
     <div class="line3"></div>
   </div>
   <ul class="nav-links ml-auto">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="#">Acceuil</a></li>
+    <li><a href="#">A_Propos</a></li>
     <li><a href="#">Portfolio</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
 </nav>
 <section class="home-area element-cover-bg" style="background-image: url(img/home_page.jpg);">
-<div class="center">
-  <h1 class="home-name">Maxence Schroeder<h1>
+<div class="center h-100">
+  <h1 class="home-name">Maxence Schroeder</h1>
+  <h3 class="cd-headline slide">
+      <span>Je suis</span>
+      <span class="cd-words-wrapper">
+         <b class="is-visible">Developpeur</b>
+         <b>Etudiant</b>
+         <b>Programmeur</b>
+</div>
+<div class="fixed-block blockright">
+  <ul class="social-icons">
+    <li><a href="https://github.com/Maxence-schroeder01" aria-label="Github"><i class="fa fa-github fa-2x"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/maxence-schroeder-64056a197/" aria-label="Linkedin"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+    <li><a href="https://www.instagram.com/prime.max/" aria-label="instagram"><i class="fa fa-instagram fa-2x"></i></a></li>
+    <li><a href="https://twitter.com/MaxPrime__" aria-label="Twitter"><i class="fa fa-twitter fa-2x"></i></a></li>
+  </ul>
+</div>
+<div class="fixed-block blockleft">
+  <ul class="lang-panel">
+  <li><a href="?lang=en" aria-label="Anglais">ENG</a></li>
+    <li><a href="?lang=fr" aria-label="French">FR</a></li>
+  </ul>
 </div>
 </section>
-  <script src="js/navbar.js"></script>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/home-text.js"></script>
 </body>
 </html>
