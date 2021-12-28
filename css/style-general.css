@@ -93,6 +93,7 @@ body{
     transform: rotate(90deg);
     margin-top: 20px;
     text-decoration: none;
+    font-size: 15px;
     color: #fff;
     display: block;
     text-transform: uppercase;
@@ -347,4 +348,14 @@ Primary style
   .no-js .cd-words-wrapper b.is-visible {
     opacity: 1;
   }
-  
+body{
+      animation: fadein 1s;
+  }
+  @keyframes fadein{
+      from{
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }

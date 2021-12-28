@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style-navbar.css">
-        <link rel="stylesheet" href="css/style-general.css">
+        <link rel="stylesheet" href="../css/style-navbar.css">
+        <link rel="stylesheet" href="../css/style-general.css">
         <script src="https://kit.fontawesome.com/2b4b8ea570.js" crossorigin="anonymous"></script>
         <title>Maxence-Schroeder</title>
 </head>
@@ -21,13 +21,13 @@
     <div class="line3"></div>
   </div>
   <ul class="nav-links ml-auto">
-    <li><a class="acceuil">Acceuil</a></li>
-    <li><a class="About">A_Propos</a></li>
-    <li><a class="portfolio">Portfolio</a></li>
-    <li><a class="contact">Contact</a></li>
+  <li><a class="acceuil-s">Acceuil</a></li>
+    <li><a class="About-s">A_Propos</a></li>
+    <li><a class="portfolio-s">Portfolio</a></li>
+    <li><a class="contact-s">Contact</a></li>
   </ul>
 </nav>
-<section class="home-area fadein element-cover-bg" style="background-image: url(img/home_page.jpg);">
+<section class="home-area element-cover-bg" style="background-image: url(img/home_page.jpg);">
 <div class="center h-100">
   <h1 class="home-name">Maxence Schroeder</h1>
   <h3 class="cd-headline slide">
@@ -52,9 +52,9 @@
   </ul>
 </div>
 </section>
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/navbar.js"></script>
-<script src="js/transition.js"></script>
-<script src="js/home-text.js"></script>
+<script src="../js/jquery-2.1.1.js"></script>
+<script src="../js/navbar.js"></script>
+<script src="../js/transition.js"></script>
+<script src="../js/home-text.js"></script>
 </body>
 </html>
