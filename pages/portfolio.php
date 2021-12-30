@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style-navbar.css">
         <link rel="stylesheet" href="../css/style-general.css">
+        <link rel="stylesheet" href="../css/style-portfolio.css">
         <script src="https://kit.fontawesome.com/2b4b8ea570.js" crossorigin="anonymous"></script>
         <title>Maxence-Schroeder</title>
 </head>
@@ -27,16 +28,8 @@
     <li><a class="contact-s">Contact</a></li>
   </ul>
 </nav>
-<section class="home-area element-cover-bg" style="background-image: url(img/home_page.jpg);">
-<div class="center h-100">
-  <h1 class="home-name">Maxence Schroeder</h1>
-  <h3 class="cd-headline slide">
-      <span>Je suis</span>
-      <span class="cd-words-wrapper">
-         <b class="is-visible">Developpeur</b>
-         <b>Etudiant</b>
-         <b>Programmeur</b>
-</div>
+<section class="home-area element-cover-bg" style="background-image: url(../img/home_portfolio.jpg);">
+  <div id="ghapidata" class="home-name container"></div>
 <div class="fixed-block blockright">
   <ul class="social-icons">
     <li><a href="https://github.com/Maxence-schroeder01" aria-label="Github"><i class="fa fa-github fa-2x"></i></a></li>
@@ -55,6 +48,6 @@
 <script src="../js/jquery-2.1.1.js"></script>
 <script src="../js/navbar.js"></script>
 <script src="../js/transition.js"></script>
-<script src="../js/home-text.js"></script>
+<script src="../js/GithubApiCall.js"></script>
 </body>
 </html>

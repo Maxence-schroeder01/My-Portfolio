@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center!important;
+  align-items: center!important;
+  position: absolute;
+  flex-wrap: wrap;
+  scrollbar-width: thin;          /* "auto" or "thin" */
+  scrollbar-color: blue orange;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  text-align: justify;
+  padding: 20px;
+  max-width: 1200px;
+  margin-top: 50px;
+  margin-left: 25%;
+}
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+@media screen and (max-width:768px) {
+    .container{
+        max-width: 800px;
+        margin-left: 0px;
+    }
+}
+
+ .container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+element {
+  --main-bg-color: brown;
+}
+ .container .card:nth-child(1) .box .content a {
+  background: #2196f3;
+}
+
+ .container .card:nth-child(2) .box .content a {
+  background: #e91e63;
+}
+.container .card:nth-child(3) .box .content a {
+  background: #67ca6f;
+}
+.container .card:nth-child(4) .box .content a {
+  background: #79049b;
+}
+.container .card:nth-child(5) .box .content a {
+  background: #d75482;
+}
+.container .card:nth-child(6) .box .content a {
+  background: #62047b;
+}
+.container .card:nth-child(7) .box .content a {
+  background: #90a467;
+}
+.container .card:nth-child(8) .box .content a {
+  background: #a4699f;
+}
+.container .card:nth-child(9) .box .content a {
+  background: #bfd01a;
+}
+.container .card:nth-child(10) .box .content a {
+  background: #6b01ab;
+}
+.container .card:nth-child(11) .box .content a {
+  background: #266e89;
+}
+.container .card:nth-child(12) .box .content a {
+  background: #c8a5e2;
+}
+.container .card:nth-child(13) .box .content a {
+  background: #ba7f07;
+}
+.container .card:nth-child(14) .box .content a {
+  background: #e91e63;
+}
+.container .card:nth-child(15) .box .content a {
+  background: #e684d8;
+}
+.container .card:nth-child(16) .box .content a {
+  background: #d8a8b8;
+}
+.container .card:nth-child(17) .box .content a {
+  background: #35089d;
+}
+.container .card:nth-child(18) .box .content a {
+  background: #6e9d49;
+}
+.container .card:nth-child(19) .box .content a {
+  background: #ff079e;
+}
+.container .card:nth-child(20) .box .content a {
+  background: #f58e42;
+}
+
+ .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+ .container .card .box:hover {
+  transform: translateY(-50px);
+}
+
+ .container .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+ .container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+ .container .card .box .content h1 {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+ .container .card .box .content h5 {
+  font-size: 1rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+.container .card .box .content h6 {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+}
+ .container .card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+ .container .card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+/* clearfix */
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }

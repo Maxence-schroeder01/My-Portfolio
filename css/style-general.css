@@ -16,10 +16,11 @@
     z-index: 1030;
 }
 body{
-    background-color: #111;
+    background-color: rgb(16, 16, 16);
     color: #9f9f9f;
     font-family: 'Poppins',sans-serif;
     font-size: 14px;
+    overflow: hidden;
     font-weight: 400;
     position: relative;
     line-height: 1.95;
@@ -41,6 +42,9 @@ body{
     }
     .center .home-name{
         font-size: 30px!important;
+    }
+    .container{
+        margin-left: -200px;
     }
 }
 .h-100{
