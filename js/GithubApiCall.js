@@ -24,7 +24,7 @@
                 <h1>${data.name}</h1>
                 <h5> ${data.description}</h5>
                 <p><a href="${data.html_url}">Pour en Savoir Plus</a></p>
-                <h6>${data.language}</h6>
+                <h6><strong>Language : </strong>${data.language}</h6>
 
                 </div>
                 </div>
